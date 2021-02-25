@@ -1,0 +1,10 @@
+{
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Jonas Leininger",
+  "email": "jonas.leininger@gmail.com",
+  "friendly_name": "Etf Holdings Analysis",
+  "github_user": "JonasLeininger",
+  "package_name": "etf_holdings_analysis",
+  "project_name": "etf-holdings-analysis",
+  "version": "0.1.0"
+}
