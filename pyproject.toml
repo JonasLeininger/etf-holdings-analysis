@@ -22,6 +22,8 @@ Changelog = "https://github.com/JonasLeininger/etf-holdings-analysis/releases"
 python = "^3.6.1"
 click = "^7.0"
 requests = "^2.25.1"
+flake8 = "^3.8.4"
+pre-commit = "^2.10.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
@@ -47,6 +49,13 @@ sphinx-rtd-theme = "^0.5.1"
 sphinx-click = "^2.5.0"
 Pygments = "^2.8.0"
 pytest-cov = "^2.11.1"
+pytest-mock = "^3.5.1"
+flake8-black = "^0.2.1"
+flake8-import-order = "^0.18.1"
+toml = "^0.10.2"
+pathspec = "^0.8.1"
+regex = "^2020.11.13"
+typed-ast = "^1.4.2"
 
 [tool.poetry.scripts]
 etf-holdings-analysis = "etf_holdings_analysis.console:main"
