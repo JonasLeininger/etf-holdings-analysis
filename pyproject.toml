@@ -21,6 +21,7 @@ Changelog = "https://github.com/JonasLeininger/etf-holdings-analysis/releases"
 [tool.poetry.dependencies]
 python = "^3.6.1"
 click = "^7.0"
+requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
@@ -47,7 +48,7 @@ sphinx-click = "^2.5.0"
 Pygments = "^2.8.0"
 
 [tool.poetry.scripts]
-etf-holdings-analysis = "etf_holdings_analysis.__main__:main"
+etf-holdings-analysis = "etf_holdings_analysis.console:main"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
